@@ -1,0 +1,3 @@
+#NFL & EPL DISTANCE CALCULATORS#
+
+This repo contains two files which allow (rough) distance to be calculated between two NFL or English Premier League teams using the Google Maps API via the GeoPy Python package. These scripts were used in my undergraduate thesis on sports betting for gathering data and writing it to csv format. Google's API allows 500 requests per 24 hours. Both Python files contain a line which pauses when dealing with looking up a large number of distances, so as not to run into Google's per minute API call limit. The distances are rough in that EPL teams are only located by city. London clubs for example, will all have distances of 0 between one another. 
